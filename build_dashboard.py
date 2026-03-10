@@ -1,13 +1,5 @@
-"""
-build_dashboard.py
-==================
-Reads ops_finance.db → builds a fully formatted Excel KPI dashboard
-with charts, color-coded cells, and management commentary.
 
-Usage:
-    pip install pandas openpyxl
-    python build_dashboard.py
-"""
+
 
 import sqlite3
 import pandas as pd
