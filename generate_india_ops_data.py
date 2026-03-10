@@ -1,19 +1,4 @@
-"""
-generate_india_ops_data.py
-==========================
-Generates realistic India e-commerce operations data for a
-Weekly KPI Finance Dashboard (Amazon Finance Intern project).
 
-Output files:
-  - ops_data.csv          → raw weekly data (use in Excel / Power BI)
-  - ops_finance.db        → SQLite database (run SQL queries against this)
-  - product_data.csv      → product category breakdown
-  - region_targets.csv    → budget/target data per region
-
-Usage:
-  pip install pandas numpy faker
-  python generate_india_ops_data.py
-"""
 
 import pandas as pd
 import numpy as np
